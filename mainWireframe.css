@@ -1,0 +1,261 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    min-height: 100%;
+}
+
+body {
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://images.unsplash.com/photo-1523875194681-bedd468c58bf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80) ;
+    background-repeat: no-repeat;
+    min-height: 80%;
+} 
+
+
+.mainmessage {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.mainmessage header h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: aliceblue;
+    font-size: 50px;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+form {
+    margin-top: 20px; 
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+fieldset {
+    height: 400px;
+    padding: 25px;
+    display: flex;
+	flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.answers {
+    color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+
+}
+
+button {
+    display: block;
+	min-height: 65px;
+	min-width: 65px;
+	margin-bottom: 1.5em;
+	font-size: 2em;
+	border: black 2px;;
+	background-color:navy;
+	color: #ffedfc;
+	border-radius: 5px;
+	padding: .5em 1em;
+	width: 60%;
+    max-width: 180px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3px;
+}
+ 
+#start {
+    display: block;
+	min-height: 65px;
+	min-width: 65px;
+	margin-bottom: 80px;
+	font-size: 2em;
+	border: black 2px;;
+	background-color:navy;
+	color: #ffedfc;
+	border-radius: 5px;
+	padding: .5em 1em;
+	width: 60%;
+    max-width: 180px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 400px;
+}
+
+legend {
+    color: white;
+    font-size: 30px;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+
+label {
+    font: white;
+    margin-bottom: 50px;
+    font-size: 25px;
+    margin-top:0px;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+#js-submit-button {
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 0px;
+}
+
+
+#question-count, #score-count {
+	display: inline-block;
+    font-size: 1.6em;
+    font: white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+#status-bar {
+    color: white;
+}
+
+#score-count {
+    float: right;
+}
+
+#finish { 
+    position: relative;
+    margin-bottom: 0px;
+}
+
+#next {
+    margin-bottom: 0px;
+    margin-top: 3px;
+}
+
+#replay {
+    margin-top: 80px;
+
+}
+
+#finalForm {
+    height: 300px;
+}
+
+
+button:hover {
+	background-color: rgb(2, 42, 56);
+	cursor: pointer;
+}
+
+
+@media only screen and (max-width: 450px) {
+    .mainmessage header h1 {
+        font-size: 25px;
+    }
+    fieldset    {
+        height: 300px;
+        
+    }
+
+    legend  {
+        font-size: 18px;
+    }
+
+    button  {
+        display: block;
+            min-height: 25px;
+            min-width: 25px;
+            margin-bottom: 1.5em;
+            font-size: 1.5em;
+            border: black 2px;
+            background-color:navy;
+            color: #ffedfc;
+            border-radius: 5px;
+            padding: .5em 1em;
+            width: 40%;
+            max-width: 140px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 3px;
+    }
+
+    label   {
+        font-size: 18px;
+        margin-bottom: 25px;
+    }
+    #question-count, #score-count {
+        font-size: 1.2em;
+    }
+    form {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media only screen and (min-width: 451px) and (max-width: 1250px) {
+    .mainmessage header h1 {
+        font-size: 32px;
+    }
+    fieldset    {
+        height: 400px;
+    }
+    legend  {
+        font-size: 27px;
+    }
+
+    button  {
+            display: block;
+            min-height: 35px;
+            min-width: 35px;
+            margin-bottom: 1.5em;
+            font-size: 1.5em;
+            border: black 2px;
+            background-color:navy;
+            color: #ffedfc;
+            border-radius: 5px;
+            padding: .5em 1em;
+            width: 40%;
+            max-width: 150px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 3px;
+    }
+
+    label   {
+        font-size: 20px;
+        margin-bottom: 35px;
+    }
+    #question-count, #score-count {
+        font-size: 1.4em;
+    }
+    form {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px; 
+
+    }
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Chess Quiz Application</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="mainWireframe.css">
+</head>
+
+
+<main role='main'> 
+    <div class="mainmessage">
+        <header>
+            <h1>Specific Question will go here</h1>
+        </header>
+    </div>
+   
+    <form>
+        <fieldset>
+            <legend>Select the Right Answer</legend>
+                <label for="answer1" aria-label="answer1">
+                    <input type="radio" id="answer1" class="answer1" name="option" checked></input>
+                    <span class="answers">Answer1}</span>
+                </label> 
+                
+                <label for="answer2" aria-label="answer2">
+                    <input type="radio" id="answer2" class="answer1" name="option"></input>
+                    <span class="answers">Answer2</span>
+                </label> 
+                
+                <label for="answer3" aria-label="answer3">
+                    <input type="radio" id="answer3" class="answer1" name="option"></input>
+                    <span class="answers">Answer3</span>
+                </label> 
+                    
+                <label for="answer4" aria-label="answer4">
+                    <input type="radio" id="answer4" class="answer1" name="option"></input>
+                    <span class="answers">Answer4</span>
+                </label> 
+        </fieldset>
+    </form>
+
+    <button id="js-submit-button">Submit!</button>
+</main>           
+        
+       
+<section id="status-bar">
+    <span id="question-count">Question: Question Number</span>
+    <span id="score-count">Score: </span>
+</section>
